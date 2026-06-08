@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>apartment - floor plan</title>
+<style>
+  body { margin:0; font:15px system-ui,-apple-system,"Segoe UI",sans-serif;
+          background:#f4f6f9; color:#1c2733; display:flex; min-height:100vh; }
+  .stage { flex:1; display:flex; align-items:center; justify-content:center; padding:24px; }
+  .stage svg { max-width:100%; max-height:88vh; height:auto; background:#fff;
+                border-radius:12px; box-shadow:0 6px 24px rgba(20,30,50,.12); }
+  aside { width:300px; padding:24px 20px; background:#fff; border-left:1px solid #e3e8ee; }
+  aside h1 { font-size:16px; margin:0 0 4px; }
+  aside p { color:#5b6b7c; font-size:13px; margin:0 0 16px; }
+  .pill { display:inline-block; background:#eef2f7; border-radius:999px; padding:3px 10px;
+           font-size:12px; color:#3a4a5a; }
+  dl { margin:14px 0 0; } dt { color:#90a0b0; font-size:12px; margin-top:10px; }
+  dd { margin:2px 0 0; font-weight:600; }
+</style></head><body>
+  <div class="stage"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 860" width="1240" height="860" role="img" aria-label="apartment" class="floorplan">
+<title>apartment</title>
+<style>
+  .floorplan .room { fill: #eef2f6; stroke: none; cursor: pointer; transition: fill .15s ease; }
+  .floorplan .room:hover { fill: #d6e4f0; }
+  .floorplan .room:focus { outline: none; fill: #cfe0ef; }
+  .floorplan .room.is-selected { fill: #bcd7ef; }
+  .floorplan .walls { fill: #2b3440; fill-rule: evenodd; pointer-events: none; }
+  .floorplan .room-name { font: 600 13px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1c2733; text-anchor: middle; pointer-events: none; user-select: none; }
+  .floorplan .room-area { font: 400 11px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5b6b7c; text-anchor: middle; pointer-events: none; user-select: none; }
+</style>
+<g class="rooms">
+  <path id="room-living" class="room" d="M 69.0 439.0 L 69.0 793.0 L 443.0 793.0 L 443.0 439.0 Z" data-area-px="134062" data-area-units="13.41" data-label="Living" tabindex="0" role="button"><title>Living</title></path>
+  <path id="room-kitchen" class="room" d="M 69.0 69.0 L 69.0 423.0 L 443.0 423.0 L 443.0 69.0 Z" data-area-px="133845" data-area-units="13.38" data-label="Kitchen" tabindex="0" role="button"><title>Kitchen</title></path>
+  <path id="room-bedroom" class="room" d="M 819.0 439.0 L 819.0 793.0 L 1173.0 793.0 L 1173.0 439.0 Z" data-area-px="126942" data-area-units="12.69" data-label="Bedroom" tabindex="0" role="button"><title>Bedroom</title></path>
+  <path id="room-bedroom-2" class="room" d="M 459.0 439.0 L 459.0 793.0 L 803.0 793.0 L 803.0 439.0 Z" data-area-px="123382" data-area-units="12.34" data-label="Bedroom 2" tabindex="0" role="button"><title>Bedroom 2</title></path>
+  <path id="room-bath" class="room" d="M 459.0 69.0 L 459.0 423.0 L 803.0 423.0 L 803.0 69.0 Z" data-area-px="123274" data-area-units="12.33" data-label="Bath" tabindex="0" role="button"><title>Bath</title></path>
+  <path id="room-wc" class="room" d="M 819.0 70.0 L 819.0 423.5 L 995.0 423.5 L 989.0 421.0 L 989.0 70.0 Z" data-area-px="60991" data-area-units="6.10" data-label="WC" tabindex="0" role="button"><title>WC</title></path>
+  <path id="room-closet" class="room" d="M 1004.0 70.0 L 1004.0 423.0 L 1173.5 423.0 L 1173.5 70.0 Z" data-area-px="60974" data-area-units="6.10" data-label="Closet" tabindex="0" role="button"><title>Closet</title></path>
+</g>
+<path class="walls" d="M 56.0 57.0 L 56.0 859.0 L 1184.0 859.0 L 1184.0 805.0 L 1239.0 804.0 L 1239.0 56.0 Z M 819.0 438.0 L 1174.0 439.0 L 1173.0 794.0 L 818.0 793.0 Z M 459.0 438.0 L 804.0 439.0 L 803.0 794.0 L 458.0 793.0 Z M 68.0 439.0 L 443.0 438.0 L 444.0 793.0 L 69.0 794.0 Z M 1004.0 68.0 L 1173.0 68.0 L 1175.0 71.0 L 1173.0 424.0 L 1003.0 423.0 Z M 819.0 68.0 L 988.0 68.0 L 990.0 71.0 L 990.0 421.0 L 995.0 425.0 L 818.0 423.0 Z M 459.0 68.0 L 804.0 69.0 L 803.0 424.0 L 458.0 423.0 Z M 68.0 69.0 L 443.0 68.0 L 444.0 423.0 L 69.0 424.0 Z"/>
+<g class="labels">
+  <text class="room-name" x="246" y="612">Living</text>
+  <text class="room-area" x="246" y="628">13.4 m2</text>
+  <text class="room-name" x="246" y="242">Kitchen</text>
+  <text class="room-area" x="246" y="258">13.4 m2</text>
+  <text class="room-name" x="996" y="612">Bedroom</text>
+  <text class="room-area" x="996" y="628">12.7 m2</text>
+  <text class="room-name" x="631" y="607">Bedroom 2</text>
+  <text class="room-area" x="631" y="623">12.3 m2</text>
+  <text class="room-name" x="631" y="237">Bath</text>
+  <text class="room-area" x="631" y="253">12.3 m2</text>
+  <text class="room-name" x="904" y="151">WC</text>
+  <text class="room-area" x="904" y="167">6.1 m2</text>
+  <text class="room-name" x="1088" y="150">Closet</text>
+  <text class="room-area" x="1088" y="166">6.1 m2</text>
+</g>
+<script><![CDATA[
+(function () {
+  var svg = document.currentScript.closest('svg');
+  if (!svg) return;
+  function select(el) {
+    svg.querySelectorAll('.room.is-selected').forEach(function (n) {
+      n.classList.remove('is-selected'); });
+    el.classList.add('is-selected');
+    svg.dispatchEvent(new CustomEvent("room:select", { bubbles: true, detail: {
+      id: el.id,
+      label: el.getAttribute("data-label") || el.id,
+      areaPx: Number(el.getAttribute("data-area-px")),
+      area: el.hasAttribute("data-area-units") ? Number(el.getAttribute("data-area-units")) : null
+    }}));
+  }
+  svg.querySelectorAll('.room').forEach(function (el) {
+    el.addEventListener('click', function () { select(el); });
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(el); }
+    });
+  });
+})();
+]]></script>
+</svg></div>
+  <aside>
+    <h1>apartment</h1>
+    <p>Click or Tab + Enter on any room.</p>
+    <span class="pill" id="count">…</span> <span class="pill" id="total">—</span>
+    <dl>
+      <dt>Selected room</dt><dd id="sel">—</dd>
+      <dt>Id</dt><dd id="rid">—</dd>
+      <dt>Area</dt><dd id="area">—</dd>
+    </dl>
+  </aside>
+<script>
+  var svg = document.querySelector('.floorplan');
+  var rooms = svg.querySelectorAll('.room');
+  document.getElementById('count').textContent = rooms.length + ' rooms';
+  var tot = 0, has = false;
+  rooms.forEach(function (r) {
+    if (r.hasAttribute('data-area-units')) { tot += Number(r.getAttribute('data-area-units')); has = true; }
+  });
+  if (has) document.getElementById('total').textContent = tot.toFixed(1) + ' m²';
+  svg.addEventListener('room:select', function (e) {
+    document.getElementById('sel').textContent = e.detail.label;
+    document.getElementById('rid').textContent = e.detail.id;
+    document.getElementById('area').textContent =
+      e.detail.area != null ? e.detail.area.toFixed(1) + ' m²'
+                            : e.detail.areaPx.toLocaleString() + ' px²';
+  });
+</script>
+</body></html>

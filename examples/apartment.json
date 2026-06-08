@@ -1,0 +1,123 @@
+{
+  "source": "apartment.png",
+  "width": 1240,
+  "height": 860,
+  "units": "m",
+  "pixels_per_metre": 100.0,
+  "total_area_px": 763470.0,
+  "total_area_units": 76.35,
+  "rooms": [
+    {
+      "id": "room-living",
+      "label": "Living",
+      "area_px": 134062.0,
+      "area_units": 13.41,
+      "centroid": [
+        246.0,
+        616.0
+      ],
+      "bbox": [
+        69,
+        439,
+        443,
+        793
+      ]
+    },
+    {
+      "id": "room-kitchen",
+      "label": "Kitchen",
+      "area_px": 133845.0,
+      "area_units": 13.38,
+      "centroid": [
+        246.0,
+        246.0
+      ],
+      "bbox": [
+        69,
+        69,
+        443,
+        423
+      ]
+    },
+    {
+      "id": "room-bedroom",
+      "label": "Bedroom",
+      "area_px": 126942.0,
+      "area_units": 12.69,
+      "centroid": [
+        996.0,
+        616.0
+      ],
+      "bbox": [
+        819,
+        439,
+        1173,
+        793
+      ]
+    },
+    {
+      "id": "room-bedroom-2",
+      "label": "Bedroom 2",
+      "area_px": 123382.0,
+      "area_units": 12.34,
+      "centroid": [
+        631.0,
+        611.0
+      ],
+      "bbox": [
+        459,
+        439,
+        803,
+        793
+      ]
+    },
+    {
+      "id": "room-bath",
+      "label": "Bath",
+      "area_px": 123274.0,
+      "area_units": 12.33,
+      "centroid": [
+        631.0,
+        241.0
+      ],
+      "bbox": [
+        459,
+        69,
+        803,
+        423
+      ]
+    },
+    {
+      "id": "room-wc",
+      "label": "WC",
+      "area_px": 60991.0,
+      "area_units": 6.1,
+      "centroid": [
+        904.0,
+        155.0
+      ],
+      "bbox": [
+        819,
+        70,
+        995,
+        423
+      ]
+    },
+    {
+      "id": "room-closet",
+      "label": "Closet",
+      "area_px": 60974.0,
+      "area_units": 6.1,
+      "centroid": [
+        1088.0,
+        154.0
+      ],
+      "bbox": [
+        1004,
+        70,
+        1173,
+        423
+      ]
+    }
+  ]
+}
